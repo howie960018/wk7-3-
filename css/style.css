@@ -1,0 +1,239 @@
+html{
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family:PingFangSC-Regular,sans-serif,Microsoft JhengHei;	
+}
+
+p {
+	font-size: 16px;
+}
+
+.navbar-brand img {
+	height: 50px;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+	
+
+}
+}
+
+.banner {
+	margin-top: 76px;
+	
+}
+.banner .container-fluid {
+	padding:0!important;
+}
+
+.about {
+	padding:100px 0;
+	background: #FCF7EE;
+	
+}
+
+.about img {
+	box-shadow:2px 2px 4px gray;
+
+}
+.title {
+	font-size:20px;
+	font-weight: bold;
+}
+
+.title_line {
+	border-color:#ffffff;
+}
+
+.story {
+	
+	font-size: 18px;
+}
+
+.story span {
+	font-style: italic;
+	font-size: 20px;
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.title_line {
+	margin-bottom: 50px;
+}
+
+
+footer {
+	background-color: #c1adad;
+	padding:20px 0; 
+}
+
+footer p {
+	line-height: 39px;
+}
+
+.bgcolor{
+
+	background-color: #3B1803;
+}
+
+.mycontainer{
+
+display:flex;  
+flex-direction: row;
+justify-content:space-around;
+}
+
+.img-maxwidth{
+    display: block;
+    max-width: 100%;
+    margin: 10px auto;
+}
+.img-width{
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.main-nav a {
+	
+	padding: 5px 1em;
+	position: relative;
+
+	}
+
+
+  .hnav{
+	color:  #3B1803;
+	text-decoration: none;
+  }
+
+  .hnav:hover{
+	  color: red;
+	  border-bottom:solid red;
+  }
+
+  .wordcolor{
+	font-family: Noto Sans TC;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color:  #3B1803;
+  }
+
+  .teamplan{
+
+	position:relative;
+	top: 20px;
+	left:50px;
+	font-family: 'Noto Serif TC', serif;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 34px;
+	letter-spacing: 0.05em;
+	color: #3B1803;
+
+
+  }
+
+  .teamplan:hover{
+
+	position:relative;
+	left:50px;
+	font-family: 'Noto Serif TC', serif;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 34px;
+	letter-spacing: 0.05em;
+	color: red;
+
+
+  }
+
+  .abthai{
+	
+	font-family: 'Noto Serif TC', serif;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 34px;
+	letter-spacing: 0.05em;
+	color: #3B1803;
+  }
+
+  .txt{
+
+	font-family: Noto Serif TC;
+	font-size: 16px;
+	line-height: 32px;
+	color: #3B1803;
+	
+  }
+
+  .copyright{
+	font-size: 12px;
+	color: #ffffff;
+	position:relative;
+	top:25px;
+	left:480px;
+
+  }
+
+  .fb{
+	position: relative;
+	left:-60px;
+	top: -20px;
+  }
+
+  .em{
+	position: relative;
+	left:-230px;
+	top: -20px;;
+  }
+
+  .yt{
+	position: relative;
+	left:-70px;
+	top: -20px;
+  }
+
+
+
+	/* a::after {
+		color: rgb(255, 0, 0);
+		left: 0%;
+		right: 0%;  
+		height: 0; 
+	  } */
+
+	  .wordcolor:hover{
+		font-family: Noto Sans TC;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: red;
+	  }
+
+	  .lm{
+		position: relative;
+		left: 340px;
+	  }
+
+
+	  .line{
+
+		position: absolute;
+		left:530px;
+		top: 1730px;
+	  }
+
+
+
+
